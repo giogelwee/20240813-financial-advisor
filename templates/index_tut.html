@@ -1,3 +1,97 @@
-<h2>Welcome to Robo Advisor </h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Robo Advisor</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #333;
+        }
 
-<h3><p>My name is SS, would like to know your name?</p></h3>
+        h2 {
+            color: #4CAF50;
+            font-size: 2.5em;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        h3 p {
+            font-size: 1.2em;
+            text-align: center;
+            margin-top: 0;
+        }
+
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            max-width: 500px;
+            width: 90%;
+            box-sizing: border-box;
+        }
+
+        /* Styles for Mobile Devices */
+        @media (max-width: 600px) {
+            h2 {
+                font-size: 2em;
+            }
+
+            h3 p {
+                font-size: 1em;
+            }
+
+            .container {
+                padding: 15px;
+            }
+        }
+
+        /* Styles for Tablets */
+        @media (min-width: 601px) and (max-width: 1024px) {
+            h2 {
+                font-size: 2.2em;
+            }
+
+            h3 p {
+                font-size: 1.1em;
+            }
+
+            .container {
+                padding: 18px;
+            }
+        }
+
+        /* Styles for Desktop */
+        @media (min-width: 1025px) {
+            h2 {
+                font-size: 2.5em;
+            }
+
+            h3 p {
+                font-size: 1.2em;
+            }
+
+            .container {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Welcome to Robo Advisor</h2>
+        <h3><p>My name is SS, would like to know your name?</p></h3>
+    </div>
+</body>
+</html>
+
